@@ -350,9 +350,9 @@ demo = {
       type: 'line',
       responsive: true,
       data: {
-        labels: ["Dell", "HP", "Apple", "LG", "msi", "Asus", "Lenovo", "Toshiba"],
+        labels: ["Samka", "Abdallah", "Saad", "Soli", "Snape", "khaled", "meky", "bahgt"],
         datasets: [{
-          label: "Email Stats",
+          label: "Connected!",
           borderColor: "#18ce0f",
           pointBorderColor: "#FFF",
           pointBackgroundColor: "#18ce0f",
@@ -363,7 +363,7 @@ demo = {
           fill: true,
           backgroundColor: gradientFill,
           borderWidth: 2,
-          data: [400, 500, 650, 700, 1200, 1250, 1300, 900]
+          data: [3, 1, 2, 4, 2, 5, 1, 3]
         }]
       },
       options: gradientChartOptionsConfigurationWithNumbersAndGrid
@@ -378,7 +378,7 @@ demo = {
     var a = {
       type: "bar",
       data: {
-        labels: ["Aswan", "Cairo", "Qena", "Minya", "Alexandria", "Fayoum", "Sohag"],
+        labels: ["Ammonia", "Co2", "CH4", "N2O", "NF3", "SF6", "CF4"],
         datasets: [{
           label: "Active Countries",
           backgroundColor: gradientFill,
@@ -391,7 +391,7 @@ demo = {
           pointRadius: 4,
           fill: true,
           borderWidth: 1,
-          data: [80, 99, 86, 96, 123, 85, 100, 75, 88, 90, 123, 155]
+          data: [200, 150, 86, 96, 123, 85, 100]
         }]
       },
       options: {
